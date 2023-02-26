@@ -7,7 +7,7 @@ $(document).ready(function () {
   let audio = new Audio('sound/weak.mp3');
   let nama = '';
 
-  if (nama) {
+  if (namaParam) {
     nama = namaParam;
   } else {
     nama = 'Sayang';
