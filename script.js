@@ -3,7 +3,7 @@ $(document).ready(function () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   // get value
-  const namaparam = urlParams.get('n');
+  const namaParam = urlParams.get('n');
   let audio = new Audio('sound/weak.mp3');
   let nama = '';
 
